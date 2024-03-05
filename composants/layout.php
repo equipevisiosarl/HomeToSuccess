@@ -7,18 +7,24 @@
 
 </head>
 
-<body id="top">
 
+<body id="top">
+    <?php include composant('topbar') ?>
     <?php include composant('header') ?>
+    <?php include composant('hero') ?>
 
     <main>
-        <article>
-            <?php include composant('hero') ?>
-            <?php include composant('about') ?>
-            <?php include composant('plan') ?>
-        </article>
+
+        <?php include composant('annonce_plan') ?>
+        <?php include composant('about') ?>
+        <?php include composant('plan') ?>
+        <?php include composant('contact') ?>
+
     </main>
 
+    <?php include composant('footer') ?>
+
+    <?php include composant('script') ?>
 </body>
 
 </html>

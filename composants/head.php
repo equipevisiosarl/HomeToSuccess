@@ -1,37 +1,25 @@
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- 
-    - primary meta tag
-  -->
+<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title><?=  WEBSITE_TITLE ?></title>
-<meta name="title" content="<?=  WEBSITE_TITLE ?>">
+  <meta name="title" content="<?=  WEBSITE_TITLE ?>">
 <meta name="description" content="<?=  WEBSITE_DESCRIPTION ?>">
 
-<!-- 
-    - favicon
-  -->
-<link rel="shortcut icon" href="<?=  URL.WEBSITE_LOGO ?>" type="image/svg+xml">
+  <!-- Favicons -->
+  <link href="<?=  URL.WEBSITE_LOGO ?>" rel="icon">
+  <link href="<?=  URL.WEBSITE_LOGO ?>" rel="apple-touch-icon">
 
-<!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="<?= URL ?>assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?= URL ?>assets/css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-<!-- 
-    - google font link
-  -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="<?= URL ?>assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= URL ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= URL ?>assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= URL ?>assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?= URL ?>assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?= URL ?>assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<!-- 
-    - preload images
-  -->
-<link rel="preload" as="image" href="<?= URL ?>assets/images/hero-bg.svg">
-<link rel="preload" as="image" href="<?= URL ?>assets/images/hero-banner-1.jpg">
-<link rel="preload" as="image" href="<?= URL ?>assets/images/hero-banner-2.jpg">
-<link rel="preload" as="image" href="<?= URL ?>assets/images/hero-shape-1.svg">
-<link rel="preload" as="image" href="<?= URL ?>assets/images/hero-shape-2.png">
+  <!-- Template Main CSS File -->
+  <link href="<?= URL ?>assets/css/style.css" rel="stylesheet">
